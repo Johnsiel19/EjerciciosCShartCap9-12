@@ -43,7 +43,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(59, 220);
+            this.btnLimpiar.Location = new System.Drawing.Point(39, 205);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(100, 28);
@@ -54,7 +54,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(198, 220);
+            this.btnGuardar.Location = new System.Drawing.Point(169, 205);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(100, 28);
@@ -70,7 +70,7 @@
             this.txtCantidad.Location = new System.Drawing.Point(114, 162);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(286, 22);
+            this.txtCantidad.Size = new System.Drawing.Size(171, 22);
             this.txtCantidad.TabIndex = 22;
             // 
             // txtPrecio
@@ -80,7 +80,7 @@
             this.txtPrecio.Location = new System.Drawing.Point(114, 108);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(286, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(171, 22);
             this.txtPrecio.TabIndex = 21;
             // 
             // txtNombre
@@ -90,7 +90,7 @@
             this.txtNombre.Location = new System.Drawing.Point(114, 61);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(286, 22);
+            this.txtNombre.Size = new System.Drawing.Size(171, 22);
             this.txtNombre.TabIndex = 20;
             // 
             // txtCodigo
@@ -100,7 +100,7 @@
             this.txtCodigo.Location = new System.Drawing.Point(114, 11);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(286, 22);
+            this.txtCodigo.Size = new System.Drawing.Size(171, 22);
             this.txtCodigo.TabIndex = 19;
             // 
             // label5
@@ -157,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 263);
+            this.ClientSize = new System.Drawing.Size(321, 263);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txtCantidad);

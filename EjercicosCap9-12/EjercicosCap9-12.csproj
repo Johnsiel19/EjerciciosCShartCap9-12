@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cap10\Ejercicio1cap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cap10\Ejercicio1cap10.Designer.cs">
+      <DependentUpon>Ejercicio1cap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cap10\Ejercicio2Cap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cap10\Ejercicio2Cap10.Designer.cs">
+      <DependentUpon>Ejercicio2Cap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cap9\Ejercicio3cap9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cap9\Ejercicio3cap9.Designer.cs">
+      <DependentUpon>Ejercicio3cap9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cap9\Ejerciocio1Cap9.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cap10\Ejercicio1cap10.resx">
+      <DependentUpon>Ejercicio1cap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cap10\Ejercicio2Cap10.resx">
+      <DependentUpon>Ejercicio2Cap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap9\Ejercicio3cap9.resx">
+      <DependentUpon>Ejercicio3cap9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cap9\Ejerciocio1Cap9.resx">
       <DependentUpon>Ejerciocio1Cap9.cs</DependentUpon>
     </EmbeddedResource>

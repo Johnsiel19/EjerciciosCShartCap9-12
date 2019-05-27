@@ -19,13 +19,9 @@ namespace EjercicosCap9_12
             array = new ArrayList();
         }
 
-
         
         ArrayList array;
 
-    
-
-  
         public void Limpiar()
         {
             txtCodigo.Text = string.Empty;
@@ -35,7 +31,15 @@ namespace EjercicosCap9_12
 
         }
 
-      
+        public class Product
+        {
+            public string Codigo { get; set; }
+            public string Nombre { get; set; }
+            public string Precio { get; set; }
+            public string Cantidad { get; set; }
+
+        }
+
         public void Agregar()
         {
             Product n = new Product();
@@ -44,26 +48,7 @@ namespace EjercicosCap9_12
             n.Precio = txtPrecio.Text;
             n.Cantidad = txtCantidad.Text;
             array.Add(n);
-            MessageBox.Show("Guardado", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-        }
-
-
-        public void Mostrar()
-        {
-            dataTable.DataSource = null;
-            dataTable.DataSource = array;
-        }
-
-
-
-        public class Product
-        {
-            public string Codigo { get; set; }
-            public string Nombre { get; set; }
-            public string Precio { get; set; }
-            public string Cantidad { get; set; }
-
+            MessageBox.Show("Guardado...", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -83,10 +68,7 @@ namespace EjercicosCap9_12
 
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
-        {
-
-        }
+   
     }
 
 
